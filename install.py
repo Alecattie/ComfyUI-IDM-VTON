@@ -7,7 +7,7 @@ sys.path.append("../../")
 from folder_paths import models_dir
 
 CUSTOM_NODES_PATH = os.path.dirname(os.path.abspath(__file__))
-WEIGHTS_PATH = os.path.join(models_dir, "IDM-VTON")
+WEIGHTS_PATH = '/runpod-volume/models/IDM-VTON'
 HF_REPO_ID = "yisol/IDM-VTON"
 
 os.makedirs(WEIGHTS_PATH, exist_ok=True)
